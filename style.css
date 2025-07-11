@@ -50,7 +50,8 @@ header {
   align-items: center;
   gap: 158px;
   height: 698px;
-  margin-bottom:40px ;
+  margin-bottom:40px;
+    background-size: cover;
 }
 
 .header-section {
@@ -234,7 +235,12 @@ header {
   max-width: 350px;
 }
 
+.comment-name-img{
+    border-radius: 50%;
+
+}
 .comment-name {
+    
   display: flex;
   gap: 10px;
   align-items: center;
@@ -319,11 +325,11 @@ input {
   height: 48px;
   border-radius: 8px;
   border: none;
-  /* padding: 0px 20px; */
   font-size: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 300;
   border: 1px solid #00000052;
+  padding: 2px 20px;
 }
 
 textarea {
@@ -334,12 +340,9 @@ textarea {
   font-size: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 300;
+  padding: 2px 20px;
 }
 
-placeholder{
-  
- padding-right: 100px;
-}
 
 /* footer section */
 .footer-section {
