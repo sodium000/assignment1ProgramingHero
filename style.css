@@ -1,0 +1,133 @@
+
+
+.bg-button {
+    background-color: #4E47FF;
+    color: #FFFFFF;
+}
+
+
+.primary-text {
+    color: #4E47FF;
+}
+
+/* nav customize */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 151px;
+    min-width: 1140px;
+    
+
+}
+
+
+ .inter-navLogo {
+    font-size: 34px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    color: #4E47FF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-button {
+    min-height: 48px;
+    min-width: 132px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    border: none;
+}
+
+/* header section */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 158px;
+    height: 698px;
+}
+
+  .header-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+ .raleway-heading {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+    
+}
+
+.heading-title{
+    max-width: 905px;
+    max-height: 237px;
+    text-align: center;
+    font-size: 65px;
+    margin: 0px 0px 30px 0px;
+}
+
+ .heading-button{
+    min-height: 48px;
+    min-width: 174px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+ }
+
+
+ /* contener box */
+
+ .content-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1140px;
+    min-height: 428px;
+    margin: 0 auto;
+
+ }
+
+ .content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 517px;
+    min-height: 203px;
+    
+ }
+
+ .content-box-heading{
+    font-size: 42px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+ }
+
+    .content-box-text {
+        font-size: 24px;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        color: #252432af;
+    }
+
+    .content-box-button {
+        min-height: 48px;
+        max-width: 229px;
+        cursor: pointer;
+        border-radius: 8px;
+        border: none;
+        font-size: 16px;
+        font-family: "Inter", sans-serif;
+    }
