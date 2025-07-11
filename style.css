@@ -140,7 +140,7 @@ header {
 /* status section */
 .point-bar {
   display: flex;
-  background-color: #ccc7fd;
+  background-color: rgba(216, 225, 231, 0.984);
   max-width: 1140px;
   max-height: 306px;
   justify-content: space-around;
